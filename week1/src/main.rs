@@ -5,7 +5,7 @@ fn main() {
     println!("Rust is a memory-safe programming language. I want to learn it because it feels safer than C and C++ in terms of memory.");
     println!("It doesn't let you make common mistakes like null or dangling pointers.");
     print!("This is different macro, it does not add new line at the end.");
-    print!("\n");
+    println!();
     print!("Hello ");
     eprintln!("An error occurred: invalid input");
     let name = "Danilo";
