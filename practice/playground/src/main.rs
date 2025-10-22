@@ -307,4 +307,10 @@ fn main() {
     let input_number = input_number.trim().parse::<u32>().expect("Please enter a valid number");
     let result = input_number + 10;
     println!("{} + 10 = {}", input_number, result);
+
+
+    let a = 5;
+    let mut b = a;
+    b = b*34;
+    println!("{} {}", b, a);
 }
